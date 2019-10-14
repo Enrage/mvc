@@ -1,0 +1,129 @@
+.wrapper {
+  padding: 30px 0 100px;
+}
+
+.page_title {
+  margin: 20px 0;
+}
+
+.tasks .task_list {
+  margin-top: 30px;
+}
+.tasks .task_list .task {
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.task_number {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.user_name, .user_email, .task_text, .task_status {
+  font-size: 18px;
+}
+
+.user_name > span, .user_email > span, .task_text > span, .task_status > span {
+  font-weight: bold;
+}
+
+.add_task input, .add_task textarea {
+  width: 100%;
+  padding: 5px 15px;
+}
+
+.control-label {
+  margin-top: 20px;
+}
+
+#save_task {
+  margin: 30px 0 0;
+}
+
+.status {
+  margin: 30px;
+}
+
+.auth_section {
+  margin: 40px 0;
+}
+.login, .logout {
+  width: 100%;
+  text-align: right;
+}
+
+.auth #login, .auth #password, .auth #enter {
+  width: 100%;
+}
+.auth #login, .auth #password {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+}
+.auth #enter {
+  margin-top: 30px;
+}
+
+.pagination > a {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #333;
+  background: #e0e0e0;
+}
+.pagination > a:hover {
+  background: #fff;
+}
+.pagination > span {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  color: #333;
+  background: #fff;
+}
+
+#task_text {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+}
+#update_task {
+  margin-top: 30px;
+}
+
+.edit_task_text {
+  margin: 20px 0;
+}
+
+.save_status {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  margin-left: 15px;
+}
+
+.admin_settings {
+  text-align: right;
+}
+
+.bold {
+  font-weight: bold;
+}
+.underline {
+  text-decoration: underline;
+}
